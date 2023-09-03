@@ -3,13 +3,13 @@ namespace offsets
 {
     // buttons
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    constexpr long IN_ATTACK = (0x07472f98);            // [Buttons] -> in_attack
+    constexpr long IN_ATTACK = (0x07473fb8);            // [Buttons] -> in_attack
     // core
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     constexpr long REGION = 0x140000000;              // [Mine]          -> Region
-    constexpr long LEVEL = 0x16eed90;                 // [Miscellaneous] -> LevelName
-    constexpr long LOCAL_PLAYER = 0x22245c8;      // [Miscellaneous] -> AVC_GameMovement+0x8
-    constexpr long ENTITY_LIST = 0x1e74448;           // [Miscellaneous] -> cl_entitylist
+    constexpr long LEVEL = 0x16efe10;                 // [Miscellaneous] -> LevelName
+    constexpr long LOCAL_PLAYER = 0x2225648;      // [Miscellaneous] -> AVC_GameMovement+0x8
+    constexpr long ENTITY_LIST = 0x1e754c8;           // [Miscellaneous] -> cl_entitylist
     // entity
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     constexpr long LOCAL_ORIGIN = 0x0188; // [DataMap.CBaseViewModel]    -> m_localOrigin
