@@ -10,8 +10,8 @@
 class Aimbot
 {
 private:
-    const int m_smoothing = 5;   // If you cross-hairs are not on target then this smoothness will be used.
-    const int m_activationFOV = 4; // FOV for activation
+    const int m_smoothing = 0;   // If you cross-hairs are not on target then this smoothness will be used.
+    const int m_activationFOV = 0; // FOV for activation
 
 public:
     void update(Level *level, LocalPlayer *localPlayer, std::vector<Player *> *players, X11Utils *x11Utils)
